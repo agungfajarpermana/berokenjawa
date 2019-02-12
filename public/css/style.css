@@ -1,0 +1,1081 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500");
+
+html, body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h2{
+  font-size: 25px;
+  font-family: 'Poppins';
+}
+
+.section .container{
+  width: 100% !important;
+}
+
+.container{
+  width: 93% !important;
+}
+
+.brand-logo{
+  font-size: 18px !important;
+}
+
+nav{
+  box-shadow: none !important;
+  font-weight: bold;
+}
+
+.sidenav .user-view img.responsive-img{
+  margin-top: 35px;
+}
+
+.sidenav .user-view .name{
+  margin-top: -5px;
+}
+
+.collapsible.popout > li{
+  box-shadow: none;
+}
+
+.header-url{
+  z-index: 1;
+  height: 90%;
+  width: 100%;
+  display: none;
+}
+
+.header{
+  position: relative;
+  z-index: 3;
+}
+
+.header-content{
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(0,0,0,.5);
+  transform: translateY(-50%);
+  z-index: 5;
+}
+
+.header-content h1{
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif
+}
+
+.header-content p{
+  font-size: 18px;
+}
+
+.header-overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightgray;
+  z-index: 2;
+  opacity: 0.50;
+}
+
+.section{
+  padding: 40px 40px;
+  background-color: rgb(250, 250, 250);
+}
+
+.section img{
+  width: 100%;
+  height: 250px;
+}
+
+.section p{
+  word-break: normal; 
+  text-align: justify;
+}
+
+.about-content{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.about-content h1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.about-content h2{
+  font-family: 'Poppins';
+  margin-top: -1px;
+}
+
+.about-content p{
+  word-break: normal; 
+  text-align: justify;
+}
+
+.about-we-are{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-we-are h1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.tabs .indicator{
+  background-color: #1a237e !important;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background: transparent !important;
+}
+
+.swiper-container.s1{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  cursor: -webkit-grab;
+}
+
+.swiper-slide img{
+  width: 200px;
+  height: 100px;
+}
+
+.swiper-slide .owner-name{
+  font-size: 16px;
+}
+
+.swiper-slide .owner{
+  margin-top: -15px;
+  font-size: 15px;
+}
+
+.swiper-slide .description{
+  font-size: 15px;
+  white-space: pre-wrap;
+}
+
+.swiper-button-next{
+  outline: none;
+  height: 20px;
+}
+
+.swiper-button-prev{
+  outline: none;
+  height: 20px;
+}
+
+.swiper-slide p{
+  font-size: 15px;
+}
+
+.section-learn{
+  background: url('/assets/service.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-learn .white{
+  padding:30px !important;
+  border-radius:10px;
+  margin: 20px 0;
+}
+
+.section-person{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: rgb(250, 250, 250);
+}
+
+.section-person .person-job{
+  margin-top: -15px;
+}
+nav ul a.btn{
+  border: 1px solid #3498db !important;
+  background: none !important;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+nav ul a.btn::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+nav ul a.get-started::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+nav ul a.get-started::before{
+  height: 180%;
+}
+
+nav ul a.get-started:hover::before{
+  background-color: #3498db !important;
+  color: #fff;
+  height: 0%;
+}
+
+.section-contact{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-contact h1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.section-footer{
+  background-color: #212121;
+}
+
+.section-footer h5{
+  font-family: "Poppins";
+}
+
+/* parallax */
+.parallax1 {
+  background: url('/assets/drone.jpeg');
+  min-height: 100%;
+}
+
+.parallax2 {
+  background: url('/assets/portrait.jpeg');
+  min-height: 100%;
+}
+
+.parallax3 {
+  background: url('/assets/gallery.jpg');
+  min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3 {
+  position: relative;
+  opacity: .75;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* scroller browser */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgb(22, 10, 10); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #a6a5a5;
+  -webkit-box-shadow: inset 0 0 6px rgb(165, 42, 42); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0,0,0,0.4); 
+}
+
+@media screen and (max-width: 823px){
+  .header-content h1{
+    font-size: 25px;
+  }
+
+  .section .container{
+    width: 100% !important;
+  }
+
+  .header-content p{
+    font-size: 15px;
+  }
+
+  .section img{
+    width: 100%;
+  }
+
+  .swiper-button-next{
+    display: none;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+
+  img.circle-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-learn{
+    height: 630px !important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header-url{
+    position: absolute;
+    background: url('/assets/cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  .header-content h1{
+    display: none;
+    font-size: 30px;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-overlay{
+    height: 600px;
+  }
+
+  .section .container{
+    width: 100% !important;
+  }
+
+  .section h2{
+    font-size: 30px;
+  }
+
+  .section img{
+    width: 100%;
+    height: 300px;
+  }
+  .section p{
+    font-size: 25px;
+  }
+  .responsive-video{
+    height: 600px !important;
+  }
+
+  .about-content h1{
+    font-size: 35px;
+  }
+
+  .about-content h2{
+    font-size: 30px;
+  }
+
+  .about-content p{
+    font-size: 25px;
+  }
+  
+  .tabs .tab a, a:focus, .tabs .tab a:focus.active{
+    font-size: 23px !important;
+    background: transparent !important;
+  }
+
+  .about-we-are h1{
+    font-size: 35px;
+  }
+
+  .about-we-are img{
+    height: 150px;
+  }
+
+  .swiper-slide .description, .swiper-slide .owner-name, .swiper-slide .owner{
+    font-size: 25px;
+  }
+
+  .swiper-slide p{
+    font-size: 25px;
+  }
+
+  .swiper-slide img{
+    width: 100%;
+    height: 250px;
+  }
+
+  .swiper-button-next{
+    display: none;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+
+  img.circle-img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .section-contact h1{
+    font-size: 35px;
+  }
+
+  i.material-icons{
+    font-size: 20px !important;
+  }
+
+  .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label{
+    font-size: 21px !important;
+  }
+
+  .collapsible-header{
+    font-size: 25px;
+  }
+
+  .collapsible-body{
+    font-size: 25px;
+  }
+
+  .section-learn{
+    height: 650px !important;
+  }
+
+  /* .section-learn .white{
+    margin-top: 20px !important;
+  } */
+}
+
+@media screen and (max-width: 736px){
+  .header-url{
+    position: absolute;
+    background: url('/assets/cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  .header-content h1{
+    display: none;
+    font-size: 30px;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-overlay{
+    height: 600px;
+  }
+
+  .section .container{
+    width: 100% !important;
+  }
+
+  .section h2{
+    font-size: 20px;
+  }
+
+  .section img{
+    width: 100%;
+    height: 300px;
+  }
+  .section p{
+    font-size: 15px;
+  }
+  .responsive-video{
+    height: 600px !important;
+  }
+
+  .about-content h1{
+    font-size: 25px;
+  }
+
+  .about-content h2{
+    font-size: 20px;
+  }
+
+  .about-content p{
+    font-size: 15px;
+  }
+  
+  .tabs .tab a, a:focus, .tabs .tab a:focus.active{
+    font-size: 15px !important;
+    background: transparent !important;
+  }
+
+  .about-we-are h1{
+    font-size: 25px;
+  }
+
+  .about-we-are img{
+    height: 150px;
+  }
+
+  .swiper-slide .description, .swiper-slide .owner-name, .swiper-slide .owner{
+    font-size: 15px;
+  }
+
+  .swiper-slide p{
+    font-size: 15px;
+  }
+
+  .swiper-slide img{
+    width: 250px;
+    height: 120px;
+  }
+
+  .swiper-button-next{
+    display: none;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+
+  img.circle-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-contact h1{
+    font-size: 28px;
+  }
+
+  i.material-icons{
+    font-size: 18px !important;
+  }
+
+  .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label{
+    font-size: 15px !important;
+  }
+
+  .collapsible-header{
+    font-size: 15px;
+  }
+
+  .collapsible-body{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 667px){
+  .header-url{
+    position: absolute;
+    background: url('/assets/cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  .header-content h1{
+    display: none;
+    font-size: 30px;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-overlay{
+    height: 600px;
+  }
+
+  .section .container{
+    width: 100% !important;
+  }
+
+  .section h2{
+    font-size: 20px;
+  }
+
+  .section img{
+    width: 100%;
+    height: 300px;
+  }
+  .section p{
+    font-size: 15px;
+  }
+  .responsive-video{
+    height: 600px !important;
+  }
+
+  .about-content h1{
+    font-size: 25px;
+  }
+
+  .about-content h2{
+    font-size: 20px;
+  }
+
+  .about-content p{
+    font-size: 15px;
+  }
+  
+  .tabs .tab a, a:focus, .tabs .tab a:focus.active{
+    font-size: 15px !important;
+    background: transparent !important;
+  }
+
+  .about-we-are h1{
+    font-size: 25px;
+  }
+
+  .about-we-are img{
+    height: 150px;
+  }
+
+  .swiper-slide .description, .swiper-slide .owner-name, .swiper-slide .owner{
+    font-size: 15px;
+  }
+
+  .swiper-slide p{
+    font-size: 15px;
+  }
+
+  .swiper-slide img{
+    width: 250px;
+    height: 120px;
+  }
+
+  .swiper-button-next{
+    display: none;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+
+  img.circle-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-contact h1{
+    font-size: 28px;
+  }
+
+  i.material-icons{
+    font-size: 18px !important;
+  }
+
+  .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label{
+    font-size: 15px !important;
+  }
+
+  .collapsible-header{
+    font-size: 15px;
+  }
+
+  .collapsible-body{
+    font-size: 15px;
+  }
+
+  .section-learn{
+    height: 500px !important;
+  }
+
+  .section-learn .white{
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .container{
+    width: 86% !important;
+  }
+
+  .header-url{
+    position: absolute;
+    background: url('/assets/cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  .header-content h1{
+    display: none;
+    font-size: 30px;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-overlay{
+    height: 600px;
+  }
+
+  .section h2{
+    font-size: 20px;
+  }
+
+  .section img{
+    width: 100%;
+    height: 300px;
+  }
+  .section p{
+    font-size: 15px;
+  }
+  .responsive-video{
+    height: 600px !important;
+  }
+
+  .about-content h1{
+    font-size: 25px;
+  }
+
+  .about-content h2{
+    font-size: 20px;
+  }
+
+  .about-content p{
+    font-size: 15px;
+  }
+  
+  .tabs .tab a, a:focus, .tabs .tab a:focus.active{
+    font-size: 15px !important;
+    background: transparent !important;
+  }
+
+  .about-we-are h1{
+    font-size: 25px;
+  }
+
+  .about-we-are img{
+    height: 150px;
+  }
+
+  .swiper-slide .description, .swiper-slide .owner-name, .swiper-slide .owner{
+    font-size: 15px;
+  }
+
+  .swiper-slide p{
+    font-size: 15px;
+  }
+
+  .swiper-slide img{
+    width: 250px;
+    height: 120px;
+  }
+
+  .swiper-button-next{
+    display: none;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+
+  img.circle-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-contact h1{
+    font-size: 28px;
+  }
+
+  i.material-icons{
+    font-size: 18px !important;
+  }
+
+  .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label{
+    font-size: 15px !important;
+  }
+
+  .collapsible-header{
+    font-size: 15px;
+  }
+
+  .collapsible-body{
+    font-size: 15px;
+  }
+
+  .section-learn{
+    height: 630px !important;
+  }
+
+  .section-learn .white{
+    margin-top: 40px !important;
+  }
+}
+
+@media screen and (max-width: 568px){
+  .section-learn{
+    height: 1150px !important;
+  }
+}
+
+@media screen and (max-width: 535px){
+  .section-learn{
+    height: 1050px !important;
+  }
+}
+
+@media screen and (max-width: 465px){
+  .section-learn{
+    height: 950px !important;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .header-url{
+    position: absolute;
+    background: url('/assets/cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  .header-content h1{
+    display: none;
+    font-size: 30px;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-overlay{
+    height: 600px;
+  }
+
+  .section h2{
+    font-size: 20px;
+  }
+
+  .section img{
+    width: 100%;
+    height: 300px;
+  }
+  .section p{
+    font-size: 15px;
+  }
+  .responsive-video{
+    height: 600px !important;
+  }
+
+  .about-content h1{
+    font-size: 25px;
+  }
+
+  .about-content h2{
+    font-size: 20px;
+  }
+
+  .about-content p{
+    font-size: 15px;
+  }
+  
+  .tabs .tab a, a:focus, .tabs .tab a:focus.active{
+    font-size: 15px !important;
+    background: transparent !important;
+  }
+
+  .about-we-are h1{
+    font-size: 25px;
+  }
+
+  .about-we-are img{
+    height: 150px;
+  }
+
+  .swiper-slide .description, .swiper-slide .owner-name, .swiper-slide .owner{
+    font-size: 15px;
+  }
+
+  .swiper-slide p{
+    font-size: 15px;
+  }
+
+  .swiper-slide img{
+    width: 100%;
+    height: 150px;
+  }
+
+  .swiper-button-next{
+    display: none;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+
+  img.circle-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-contact h1{
+    font-size: 28px;
+  }
+
+  i.material-icons{
+    font-size: 18px !important;
+  }
+
+  .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label{
+    font-size: 15px !important;
+  }
+
+  .collapsible-header{
+    font-size: 15px;
+  }
+
+  .collapsible-body{
+    font-size: 15px;
+  }
+
+  .section-learn{
+    height: 890px !important;
+  }
+
+  .section-learn .white{
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .header-url{
+    position: absolute;
+    background: url('/assets/cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: block;
+  }
+  .header-content h1{
+    display: none;
+    font-size: 30px;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-overlay{
+    height: 600px;
+  }
+
+  .section h2{
+    font-size: 20px;
+  }
+
+  .section img{
+    width: 100%;
+    height: 300px;
+  }
+  .section p{
+    font-size: 15px;
+  }
+  .responsive-video{
+    height: 600px !important;
+  }
+
+  .about-content h1{
+    font-size: 25px;
+  }
+
+  .about-content h2{
+    font-size: 20px;
+  }
+
+  .about-content p{
+    text-align: justify;
+    font-size: 15px;
+  }
+  
+  .tabs .tab a, a:focus, .tabs .tab a:focus.active{
+    font-size: 15px !important;
+    background: transparent !important;
+  }
+
+  .about-we-are h1{
+    font-size: 25px;
+  }
+
+  .about-we-are img{
+    height: 150px;
+  }
+
+  .swiper-slide .description, .swiper-slide .owner-name, .swiper-slide .owner{
+    font-size: 15px;
+  }
+
+  .swiper-slide p{
+    font-size: 15px;
+  }
+
+  .swiper-slide img{
+    width: 100%;
+    height: 150px;
+  }
+
+  .swiper-button-next{
+    display: none;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+
+  img.circle-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .section-contact h1{
+    font-size: 28px;
+  }
+
+  .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label{
+    font-size: 15px !important;
+  }
+
+  .collapsible-header{
+    font-size: 15px;
+  }
+
+  .collapsible-body{
+    font-size: 15px;
+  }
+
+  .section-learn{
+    height: 880px !important;
+  }
+
+  .section-learn .white{
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .section-learn{
+    height: 840px !important;
+  }
+}

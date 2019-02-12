@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:500");
+
+html, body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #546e7a;
+}
+
+nav img{
+  margin-top: 10px;
+}
+
+.container{
+  width: 93% !important;
+}
+
+.brand-logo{
+  font-family: 'Poppins';
+  font-size: 18px !important;
+}
+
+nav a.sidenav-trigger {
+  display: block;
+}
+
+hr{
+  border: 0px;
+}
+
+.section h3{
+  color: white;
+  font-family: "Poppins";
+  font-size: 20px;
+  margin: 0;
+}
+
+.section img{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.upload{
+  margin-bottom: 20px;
+}
+
+.dropzone{
+  min-height: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.dz-message{
+  color: #5b6b72;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+
+.select-wrapper input.select-dropdown{
+  color: white !important;
+}
+
+ul.pagination li{
+  display: inline-block;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: unset;
+  height: 30px;
+  padding: 10px;
+  line-height: 10px;
+  color: white;
+  margin-left: 28%;
+}
+
+.pagination li a{
+  color: white;
+  text-transform: lowercase;
+  font-family: 'Poppins';
+}
+
+.btn-small{
+  margin-bottom: 20px;
+}
+
+.sidenav .user-view img.responsive-img{
+  margin-top: 50px;
+}
+
+input{
+  color: white !important;
+}
+
+label{
+  color: #ffc48e !important;
+}
+
+/* scroller browser */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgb(22, 10, 10); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #a6a5a5;
+  -webkit-box-shadow: inset 0 0 6px rgb(165, 42, 42); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0,0,0,0.4); 
+}
+
+@media screen and (max-width: 480px){
+  ul.pagination li{
+    margin-left: 11% !important;
+  }
+}
+
+@media screen and (max-width: 414px){
+  ul.pagination li{
+    margin-left: 13% !important;
+  }
+}
+
+@media screen and (max-width: 320px){
+  ul.pagination li{
+    margin-left: 8% !important;
+  }
+}
