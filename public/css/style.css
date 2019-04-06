@@ -281,17 +281,17 @@ nav ul a.get-started:hover::before{
 
 /* parallax */
 .parallax1 {
-  background: url('/assets/drone.jpeg');
+  background: url('/assets/paralax1.jpg');
   min-height: 100%;
 }
 
 .parallax2 {
-  background: url('/assets/portrait.jpeg');
+  background: url('/assets/paralax2.jpg');
   min-height: 100%;
 }
 
 .parallax3 {
-  background: url('/assets/gallery.jpg');
+  background: url('/assets/paralax3.jpg');
   min-height: 100%;
 }
 

@@ -75,7 +75,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col s12 l4">
-                            <img src="{{asset('assets/portrait.jpeg')}}" alt="" class="responsive-img materialboxed">
+                            <img src="{{asset('assets/portraits.jpg')}}" alt="" class="responsive-img materialboxed">
                         </div>
                         <div class="col s12 l6 offset-l1">
                             <h2 class="indigo-text text-darken-4">Portraits</h2>
@@ -87,7 +87,7 @@
 
                     <div class="row">
                         <div class="col s12 l4 push-l7 offset-l1">
-                            <img src="{{asset('assets/landscape.jpeg')}}" alt="" class="responsive-img materialboxed">
+                            <img src="{{asset('assets/landscapes.jpg')}}" alt="" class="responsive-img materialboxed">
                         </div>
                         <div class="col s12 l6 pull-l5 right-align offset-l1">
                             <h2 class="indigo-text text-darken-4">Landscape</h2>
